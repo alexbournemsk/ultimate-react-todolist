@@ -32,7 +32,22 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.todo-list {
+  width: 300px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  align-content: flex-end;
+}
+
+.todo-row-complete {
+  text-decoration: line-through;
 }
