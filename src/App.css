@@ -38,8 +38,8 @@
   }
 }
 
-.todo-list {
-  width: 300px;
+.todo-row {
+  width: 250px;
   display: flex;
   margin: 0 auto;
   align-items: center;
@@ -48,6 +48,6 @@
   align-content: flex-end;
 }
 
-.todo-row-complete {
+.complete {
   text-decoration: line-through;
 }
